@@ -1,0 +1,48 @@
+.profile-icon {
+    width: 47px;
+    height: 47px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #3700ff, #00e1ff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-icon-wrapper {
+    position: fixed;
+    top: 4px;
+    right: 25px;
+    z-index: 999; /* Чтобы иконка и рамка были поверх других элементов */
+}
+
+.profile-icon-wrapper:hover .profile-icon {
+    transform: scale(1.1);
+}
+
+/* Стили для рамки с настройками */
+.settings-popup {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+/* Стили для ссылки в рамке */
+.settings-popup a {
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+

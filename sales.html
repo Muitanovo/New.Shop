@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales</title>
+  <link rel="stylesheet" href="sales.css">
+</head>
+<body>
+  <form action="sell.php" method="POST" enctype="multipart/form-data">
+      <h1>Sell Your Product</h1>
+      <div class="product_name">
+    <label for="productName">Product Name:</label>
+      </div>
+    <input type="text" id="productName" name="productName" required><br>
+    <div class="price">
+    <label for="productPrice">Price in Euro:</label>
+    </div>
+    <input type="number" id="productPrice" name="productPrice" required><br>
+    <div class="product_image">
+    <label for="text">Product Image:</label>
+    </div>
+  <label class="file-upload">
+    Choose File
+    <input type="file" id="productImage" name="productImage">
+  </label><br>
+    <button type="submit">Sell</button>
+  </form>
+</body>
+</html>

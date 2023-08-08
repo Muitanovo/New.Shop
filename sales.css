@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    background: url(img/sales2_bg.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Zen Dots', cursive;
+    margin-top: 20px; /* Измените это значение по вашему усмотрению */
+    margin-bottom: 50px; /* Добавьте немного отступа снизу */
+    color: #010635;
+}
+
+
+.product_name {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: #010635;
+}
+
+.price {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: #010635;
+}
+
+.product_image {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: #010635;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    font-family: 'Zen Dots', cursive;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.file-upload:hover {
+    color: #fff;
+    background: #190072;
+    border: 1px solid #190072;
+    text-shadow: 0 0 .5rem #fff, 0 0 1rem #fff, 0 0 2rem #fff;
+    box-shadow: 0 0 .5rem #190072, 0 0 2rem #190072, 0 0 5rem #190072, 0 0 10rem #190072;
+}
+
+form {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    margin: 40px;
+    padding: 62px;
+    border: 2px solid #010a5e;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    box-shadow: 0 0 10px #010635, 0 0 15px;
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Остальные стили */
+}
+
+/* Стили для Microsoft Edge */
+@supports (-ms-ime-align:auto) {
+    /* Ваши стили для Edge */
+}
+
+/* Стили для Opera */
+@supports (display:-webkit-box) and (not (display:flex)) {
+}
+
+button {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 7px;
+    background: transparent;
+    font-size: 22px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    color: #fff;
+    background: #190072;
+    border: 1px solid #190072;
+    text-shadow: 0 0 .5rem #fff, 0 0 1rem #fff, 0 0 2rem #fff;
+    box-shadow: 0 0 .5rem #190072, 0 0 2rem #190072, 0 0 5rem #190072, 0 0 10rem #190072;
+}
+
+:required{
+    margin-top: 10px;
+    padding: 3px;
+    background: transparent;
+    font-size: 25px;
+    color: #000;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 6px;
+    outline: none;
+}
+
+
+
+  
+

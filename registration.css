@@ -1,0 +1,78 @@
+/* Общие стили для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Стили для формы */
+form {
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid #010a5e;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 10px #010635;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #010a5e;
+}
+
+/* Стили для полей ввода */
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Стили для кнопки */
+button[type="submit"] {
+    background-color: #010a5e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0c137c;
+}
+
+/* Стили для лейблов */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #010a5e;
+}
+
+/* Стили для загрузки файла */
+.file-upload {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #010a5e;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
